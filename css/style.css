@@ -691,7 +691,7 @@
 					-o-transition: all 0.2s ease-in-out;
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
-					background: rgba(188, 202, 206, 0.15);
+					background: rgba(148, 76, 84, 0.4);
 				}
 
 				#header nav ul li.current > a {
