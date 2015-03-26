@@ -1,5 +1,9 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+@font-face {
+	font-family:"GeosansLight";
+  	src:url("GeosansLight.eot?") format("eot"),url("GeosansLight.woff") format("woff"),url("GeosansLight.ttf") format("truetype"),
+  	url("GeosansLight.svg#GeosansLight") format("svg");
 
 /*
 	Twenty by HTML5 UP
