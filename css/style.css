@@ -28,7 +28,7 @@
 
 	body, input, select, textarea {
 		color: #7c8081;
-		font-family: 'Lato', sans-serif;
+		font-family: GeosansLight;
 		font-size: 15pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -284,7 +284,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: GeosansLight;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -626,7 +626,7 @@
 				#header nav ul li.submenu > a:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
+					font-family: GeosansLight;
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
@@ -901,7 +901,7 @@
 		#topButton .toggle:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family:GeosansLight;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -945,7 +945,7 @@
 		#sideButton .toggle:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: GeosansLight;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
