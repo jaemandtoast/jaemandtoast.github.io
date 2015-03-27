@@ -496,35 +496,35 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-o-appearance: none;
-		-ms-appearance: none;
+		-ms-appe=arance: none;
 		appearance: none;
-		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		background: none;
-		border: solid 1px;
-		color: inherit;
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		
+		background-color: #98c593;
+		border: 0;
+		border-radius: 3.5em;
+		color: #fff;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
-		font-weight: 900;
-		letter-spacing: 2px;
-		min-width: 18em;
-		padding: 0 0.75em;
-		line-height: 3.75em;
+		height: 3.5em;
+		line-height: 3.5em;
+		outline: 0;
+		padding: 0 2em 0 2em;
+		position: relative;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+
 	}
 
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		.button:hover {
-			background: rgba(188, 202, 206, 0.15);
-			border-color: inherit;
+			background-color: #a8d5a3;
 		}
 
 		input[type="button"].special,
@@ -550,7 +550,7 @@
 		.button.fit {
 			width: 100%;
 		}
-
+		
 		input[type="button"].small,
 		input[type="submit"].small,
 		input[type="reset"].small,
