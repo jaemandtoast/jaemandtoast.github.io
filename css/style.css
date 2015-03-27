@@ -550,7 +550,7 @@
 		.button.fit {
 			width: 100%;
 		}
-		
+
 		input[type="button"].small,
 		input[type="submit"].small,
 		input[type="reset"].small,
@@ -572,8 +572,7 @@
 		}
 
 		.wrapper.style2 {
-			background-image: url("../images/banner2.jpg");
-			
+			background: rgba(32, 32, 0, 0.7);			
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
 			color: white;
