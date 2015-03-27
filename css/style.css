@@ -572,7 +572,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: rgba(37, 12, 25, 0.8);
+			background-color: rgba(48, 255, 214, 0.7);
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
