@@ -584,7 +584,7 @@
 		}
 
 		.wrapper.style2 {
-			background: rgba(32, 32, 0, 0.7);			
+			background-color: rgba(0, 255, 204, 0.7);		
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
 			color: white;
