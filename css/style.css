@@ -519,6 +519,17 @@
 		text-decoration: none;
 
 	}
+		.button.fit {
+			width: 5em;
+			height: 5em;
+			line-height: 4.5em;
+			padding: 0;
+			background-image: url('images/dark-arrow.svg');
+			background-position: center center;
+			background-repeat: no-repeat;
+			text-indent: -10em;
+			overflow: hidden;
+		}
 
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
@@ -544,13 +555,8 @@
 				border-color: #96dad1 !important;
 			}
 
-		input[type="button"].fit,
-		input[type="submit"].fit,
-		input[type="reset"].fit,
-		.button.fit {
-			width: 100%;
-		}
-
+		
+	
 		input[type="button"].small,
 		input[type="submit"].small,
 		input[type="reset"].small,
