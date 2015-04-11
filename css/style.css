@@ -584,10 +584,10 @@
 		}
 
 		.wrapper.style2 {
-			background-color: rgba(0, 255, 204, 0.7);		
+			background-image: url("../images/banner2.jpg");	
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
-			color: #545458;
+			color: #FFFFFF;
 		}
 
 			.wrapper.style2 .button:hover {
