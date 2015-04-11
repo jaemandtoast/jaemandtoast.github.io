@@ -586,7 +586,7 @@
 		.wrapper.style2 {
 			background-image: url("images/overlay.png"), url("../images/pic03.jpg");	
 			background-repeat: no-repeat, no-repeat;
-			background-size: 80em, 80em;
+			background-size: 30em, 30em;
 			color: #FFFFFF;
 		}
 
