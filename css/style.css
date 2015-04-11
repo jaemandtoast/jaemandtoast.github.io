@@ -639,20 +639,6 @@
 					width: auto;
 				}
 
-				#header nav ul li.submenu > a:before {
-					-moz-osx-font-smoothing: grayscale;
-					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
-					font-style: normal;
-					font-weight: normal;
-					text-transform: none !important;
-				}
-
-				#header nav ul li.submenu > a:before {
-					content: '\f107';
-					margin-right: 0.65em;
-				}
-
 				#header nav ul li.active > a, #header nav ul li:hover > a {
 					-moz-transition: all 0.2s ease-in-out;
 					-webkit-transition: all 0.2s ease-in-out;
