@@ -584,8 +584,8 @@
 		.wrapper.style2 {
 			background-image: url("../images/rainy2.jpg");	
 			background-repeat: no-repeat, no-repeat;
-			background-size: 25em, 25em, auto, cover;
-			padding: 6em 0;
+			background-size: 50em, 50em, auto, cover;
+
 			color: #FFFFFF;
 		}
 
