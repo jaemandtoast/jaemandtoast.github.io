@@ -579,14 +579,13 @@
 		padding: 5em;
 	}
 
-		.wrapper.style1 {
-			padding: 0;
-		}
+		
 
 		.wrapper.style2 {
 			background-image: url("../images/rainy2.jpg");	
 			background-repeat: no-repeat, no-repeat;
-			background-size: 80em, 80em;
+			background-size: 25em, 25em, auto, cover;
+			padding: 6em 0;
 			color: #FFFFFF;
 		}
 
