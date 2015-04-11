@@ -584,10 +584,10 @@
 		}
 
 		.wrapper.style2 {
-			background-image: url("images/overlay.png"), url("../images/photo1.jpg");	
+			background-image: url("images/overlay.png"), url("../images/rainy6.jpg");	
 			background-repeat: repeat, no-repeat;
 			background-position: top left, center;
-			background-size: 65em, 65em;
+			background-size: auto, cover;
 			color: #FFFFFF;
 		}
 
