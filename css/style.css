@@ -585,7 +585,8 @@
 
 		.wrapper.style2 {
 			background-image: url("../images/rainy2.jpg");	
-			background-repeat: no-repeat, no-repeat;
+			background-repeat: no-repeat;
+			background-position: center;
 			background-size: 80em, 80em;
 			color: #FFFFFF;
 		}
