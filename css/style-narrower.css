@@ -11,8 +11,8 @@
 	}
 
 	header.special {
-		margin-bottom: 3em;
-		padding-top: 3em;
+		margin-bottom: 2em;
+		padding-top: 1.7em;
 	}
 
 		header.special:before, header.special:after {
