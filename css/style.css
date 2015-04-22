@@ -132,20 +132,7 @@
 			padding-top: 1.5em;
 		}
 
-		header.special .icon {
-			cursor: default;
-			height: 7em;
-			left: 0;
-			position: absolute;
-			text-align: center;
-			top: 1em;
-			width: 100%;
-		}
-
-			header.special .icon:before {
-				font-size: 3.5em;
-				opacity: 0.35;
-			}
+		
 
 	footer > :last-child {
 		margin-bottom: 0;
