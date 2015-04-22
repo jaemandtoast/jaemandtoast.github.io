@@ -488,17 +488,11 @@
 			overflow: hidden;
 		}
 			.button.down.anchored {
-			bottom: 0;
-			background-image: url('images/dark-arrow.svg');
-			border-bottom: 0;
-			border-radius: 3em 3em 0 0;
-			height: 4.5em;
-			margin-left: -2.5em;
-			position: absolute;
-			left: 50%;
-			}
-
-		.button.anchored {
+				bottom: 0;
+				border-bottom: 0;
+				border-radius: 3em 3em 0 0;
+				height: 4.5em;
+				margin-left: -2.5em;
 				position: absolute;
 				left: 50%;
 			}
