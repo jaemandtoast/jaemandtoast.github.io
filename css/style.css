@@ -476,14 +476,6 @@
 		text-decoration: none;
 
 	}
-		.button.style2 {
-			
-			color: inherit; 
-		}
-			.button.style2.down {
-					background-image: url('images/arrow.svg');
-				}
-
 		.button.down {
 			width: 5em;
 			height: 5em;
