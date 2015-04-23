@@ -512,9 +512,7 @@
 			.wrapper.style2 .button:hover {
 					background: rgba(0, 255, 204, 0.7) !important;
 			}
-			.wrapper.style2 .button.anchored{
-					background: rgba(0, 255, 204, 0.7) !important;
-			}
+			
 
 			.wrapper.style2 .button.special {
 				background: white;
