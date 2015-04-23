@@ -424,6 +424,11 @@
 		-ms-appearance: none;
 		appearance: none;
 		
+		-moz-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 		
 		background-color: rgba(255, 255, 255, 0.1);
 		border: 0;
@@ -439,7 +444,7 @@
 		text-align: center;
 		text-decoration: none;
 
-	}
+	}	
 		.button.down {
 			width: 5em;
 			height: 5em;
@@ -453,26 +458,36 @@
 		}
 			.button.down.anchored {
 				bottom: 0;
-				border-bottom-width: 0px;
-				border-bottom-style: initial;
-				border-bottom-color: initial;
-				border-top-left-radius: 3em;
-				border-top-right-radius: 3em;
-				border-bottom-right-radius: 0px;
-				border-bottom-left-radius: 0px;
+				border-bottom: 0px;
+				border-radius: 3em 3em 0 0;
 				height: 4.5em;
 				margin-left: -2.5em;
 			}
+		
 		.button.anchored {
 			position: absolute;
 			left: 50%;
 		}	
-
-		.button:hover {
-			background-color: rgba(0, 255, 204, 0.7);
-		}
-
 		
+		input[type="button"].style2,
+			input[type="submit"].style2,
+			input[type="reset"].style2,
+			.button.style2 {
+				background-color: rgba(255, 255, 255, 0.1);
+				border: solid 2px #e5e6e7;
+				color: inherit;
+			}
+
+				input[type="button"].style2:hover,
+				input[type="submit"].style2:hover,
+				input[type="reset"].style2:hover,
+				.button.style2:hover {
+					background-color: rgba(0, 255, 204, 0.7);
+				}
+
+				.button.style2.down {
+					background-image: url('images/arrow.svg');
+				}	
 /* Wrapper */
 
 	.wrapper {
