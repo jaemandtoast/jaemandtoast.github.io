@@ -451,7 +451,22 @@
 			text-indent: -10em;
 			overflow: hidden;
 		}
-			
+			.button.down.anchored {
+				bottom: 0;
+				border-bottom-width: 0px;
+				border-bottom-style: initial;
+				border-bottom-color: initial;
+				border-top-left-radius: 3em;
+				border-top-right-radius: 3em;
+				border-bottom-right-radius: 0px;
+				border-bottom-left-radius: 0px;
+				height: 4.5em;
+				margin-left: -2.5em;
+			}
+		.button.anchored {
+			position: absolute;
+			left: 50%;
+		}	
 
 		.button:hover {
 			background-color: rgba(0, 255, 204, 0.7);
