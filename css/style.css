@@ -483,6 +483,9 @@
 		padding-bottom: 1em;
 
 	}
+		.wrapper.style1 {
+			padding: 0;
+		}
 
 		.wrapper.style2 {
 			background: rgba(52, 27, 43, 0.6);
@@ -512,7 +515,11 @@
 			color: inherit;
 		}
 
-		
+		.wrapper.style4 {
+			background: white;
+			color: inherit;
+			padding: 4em;
+		}
 
 /* Header */
 	@-moz-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
