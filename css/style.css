@@ -509,15 +509,12 @@
 			background-size: auto;
 			color: #FFFFFF;
 		}
-			.wrapper.style2 .button {
-				background: rgba(255, 255, 255, 0.1)
+			.wrapper.style2 .button:hover {
+					background: rgba(0, 255, 204, 0.7) !important;
 			}
-				.wrapper.style2 .button:hover {
+			.wrapper.style2 .button.anchored{
 					background: rgba(0, 255, 204, 0.7) !important;
-				}
-				.wrapper.style2 .button.anchored{
-					background: rgba(0, 255, 204, 0.7) !important;
-				}
+			}
 
 			.wrapper.style2 .button.special {
 				background: white;
