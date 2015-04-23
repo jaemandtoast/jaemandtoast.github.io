@@ -462,7 +462,11 @@
 
 	.wrapper {
 		margin-bottom: 2em;
-		padding: 2.5em;
+		padding-top: 2.5em;
+		padding-left: 3em;
+		padding-right: 3em;
+		padding-bottom: 2.5em;
+
 	}
 
 		.wrapper.style1 {
