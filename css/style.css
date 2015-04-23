@@ -456,18 +456,21 @@
 			text-indent: -10em;
 			overflow: hidden;
 		}
-			.button.down.anchored {
-				bottom: 0;
-				border-bottom: 0px;
-				border-radius: 3em 3em 0 0;
-				height: 4.5em;
-				margin-left: -2.5em;
-			}
-		
-		.button.anchored {
+		.button.down.anchored {
+			padding: 0;
+			background-image: url('images/dark-arrow.svg');
+			background-position: center center;
+			background-repeat: no-repeat;
+			bottom: 0;
+			border-bottom: 0px;
+			border-radius: 3em 3em 0 0;
+			height: 4.5em;
+			margin-left: -2.5em;
 			position: absolute;
 			left: 50%;
-		}	
+			text-indent: -10em;
+			overflow: hidden;
+		}
 		
 		input[type="button"].style2,
 			input[type="submit"].style2,
