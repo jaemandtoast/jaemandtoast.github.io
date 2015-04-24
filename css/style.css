@@ -457,6 +457,9 @@
 			overflow: hidden;
 		}
 		.button.down.anchored {
+			width: 5em;
+			height: 5em;
+			line-height: 4.5em;
 			padding: 0;
 			background-image: url('images/dark-arrow.svg');
 			background-position: center center;
@@ -464,7 +467,6 @@
 			bottom: 0;
 			border-bottom: 0px;
 			border-radius: 3em 3em 0 0;
-			height: 4.5em;
 			margin-left: -2.5em;
 			position: absolute;
 			left: 50%;
@@ -511,8 +513,11 @@
 			color: #FFFFFF;
 		}
 			.wrapper.style2 .button:hover {
-					background: rgba(0, 255, 204, 0.7) !important;
+				background: rgba(0, 255, 204, 0.7) !important;
 			}
+				.wrapper.style .button.down.anchored {
+					background: rgba(255, 255, 255, 0.1);
+				}
 			
 
 			.wrapper.style2 .button.special {
