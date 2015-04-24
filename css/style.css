@@ -511,6 +511,8 @@
 			background-position: top-left;
 			background-size: auto;
 			color: #FFFFFF;
+			padding-left: 4em;
+			padding-right: 0em;
 		}
 			.wrapper.style2 .button:hover {
 				background: rgba(0, 255, 204, 0.7) !important;
