@@ -359,6 +359,9 @@
 
 	ul.buttons {
 		cursor: default;
+		list-style-type: none; 
+		margin: 0;
+		padding: 0;
 	}
 
 		ul.buttons:last-child {
@@ -489,6 +492,7 @@
 				.button.style2:hover {
 					background-color: rgba(0, 255, 204, 0.7);
 				}
+
 
 					
 /* Wrapper */
