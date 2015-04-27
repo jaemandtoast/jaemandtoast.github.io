@@ -359,9 +359,9 @@
 
 	ul.buttons {
 		cursor: default;
-		list-style-type: none; 
 		margin: 0;
 		padding: 0;
+		list-style-type: none;
 	}
 
 		ul.buttons:last-child {
@@ -459,22 +459,15 @@
 			text-indent: -10em;
 			overflow: hidden;
 		}
-		.button.down.anchored {
-			width: 5em;
-			height: 5em;
-			line-height: 4.5em;
-			padding: 0;
-			background-image: url('images/dark-arrow.svg');
-			background-position: center center;
-			background-repeat: no-repeat;
-			bottom: 0;
-			border-bottom: 0px;
-			border-radius: 3em 3em 0 0;
-			margin-left: -2.5em;
+			.button.down.anchored {
+				bottom: 0;
+				border-bottom: 0px;
+				border-radius: 3em 3em 0 0;
+				margin-left: -2.5em;
+			}
+		.button.anchored {
 			position: absolute;
 			left: 50%;
-			text-indent: -10em;
-			overflow: hidden;
 		}
 		
 		input[type="button"].style2,
