@@ -542,7 +542,7 @@
 			padding: 4em;
 		}
 
-/* Dark */
+/* Dark 
 
 		.dark {
 			color: #fff;
@@ -564,6 +564,7 @@
 				.dark .button.style2.down {
 					background-image: url('images/dark-arrow.svg');
 				}
+*/
 
 /* Header */
 	@-moz-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
